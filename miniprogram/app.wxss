@@ -1,4 +1,8 @@
 /**app.wxss**/
+button
+{
+  background-color: transparent;
+}
 .container {
   height: 100%;
   display: flex;
@@ -7,4 +11,108 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
+  font-size: 26rpx;
 } 
+view
+{
+  font-size: 26rpx;
+  box-sizing: border-box;
+}
+image
+{
+  box-sizing: border-box;
+  display: block;
+}
+input{
+  font-size: 26rpx;
+}
+.holder
+{
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.color_white
+{
+  color: #ffffff;
+}
+.color_lightwhite
+{
+  color: #e9e9e9;
+}
+.color_gray
+{
+  color: #656565;
+}
+.color_red
+{
+  color: #f10b0b;
+}
+.bg_white
+{
+  background-color: #ffffff;
+}
+.color_gray
+{
+  color: #656565;
+}
+.color_red
+{
+  color: #f10b0b;
+}
+.bg_red
+{
+  background-color: #f10b0b;
+}
+
+.flex_fill
+{
+  flex-grow: 1;
+}
+.flex_row_start
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex_row_end
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.flex_row_center
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flex_column_start
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.flex_column_end
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.flex_column_center
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.single_line
+{
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+}

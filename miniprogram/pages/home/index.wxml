@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<view class='top_title' style="margin-top:{{menu_rect.top}}px;height:{{menu_rect.height}}px">
+</view>

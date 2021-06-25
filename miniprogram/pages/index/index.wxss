@@ -1,19 +1,30 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
+/** index.wxss**/
+button{
+  width:100% !important;
+  padding:0rpx !important;
 }
 
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.w_search{
+  display:flex;
+  flex-direction:row;
+  width:100%;
 }
 
-.usermotto {
-  margin-top: 200px;
+.search{
+   display:flex;
+   flex:direction:row;
+   align-items:center;
+   justify-content:center;
+   background:#e9e9e9;
+   box-sizing:border-box;
+}
+
+.title>input
+{
+  display: block;
+  /* border-radius: 20rpx; */
+}
+.ph_input
+{
+  font-size: 24rpx;
 }
