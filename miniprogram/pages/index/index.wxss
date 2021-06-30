@@ -1,3 +1,6 @@
+
+@import "../scroll/scroll.wxss";
+
 /** index.wxss**/
 button{
   width:100% !important;
@@ -8,6 +11,32 @@ button{
   display:flex;
   flex-direction:row;
   width:100%;
+}
+
+.menu_image{
+   width:70rpx;
+   height:70rpx;
+}
+
+/* 菜单 */
+.w_menus
+{
+  display: flex;
+  padding: 0rpx 0rpx;
+  flex-wrap: wrap;
+}
+.w_menu_item
+{
+  padding: 30rpx 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 187rpx;
+}
+
+.menu_text{
+  font-size: 26rpx;
+  font-weight: normal;
 }
 
 .search{
@@ -27,4 +56,94 @@ button{
 .ph_input
 {
   font-size: 24rpx;
+}
+
+.activite_poster{
+  padding:20rpx;
+  border-bottom:solid 1px #e9e9e9;
+  display:flex;
+  align-item:center;
+  justify-content:center;
+}
+
+.activite_poster>.active_miaosha,.activite_poster>.active_kanjia{
+  width:400rpx;
+  height:130rpx;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  padding:20rpx;
+}
+
+.active_text{
+  color: #ffffff;
+  font-size: 22rpx;
+}
+
+.activite_poster_title{
+  height: 40rpx;
+}
+
+.activite_poster_desc{
+  height: 30rpx;
+}
+.q_left{
+width: 540rpx;
+}
+.q_head{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.quick_select{
+  padding-left:20rpx;
+  padding-right:20rpx;
+}
+.q_head_title{
+  font-size: 32rpx;
+  font-weight: bolder;
+}
+.q_head_desc{
+  color: #656565;
+}
+.q_category{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 20rpx;
+}
+
+.q_category>.category{
+  width: 180rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-right: 20rpx;
+}
+
+.q_category>.category>image
+{
+  width: 180rpx;
+  height: 180rpx;
+}
+.q_category>.category>.category_txt
+{
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.q_category>.category:nth-child(3n+0)
+{
+  border-bottom: 2px solid #47b479;
+}
+.q_category>.category:nth-child(3n+1)
+{
+  border-bottom: 2px solid #579afe;
+}
+.q_category>.category:nth-child(3n+2)
+{
+  border-bottom: 2px solid #ff6960;
 }

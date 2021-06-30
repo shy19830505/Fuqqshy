@@ -1,0 +1,17 @@
+<template name="wScroll">
+   <view class="w_scroll">
+    <image src="../../image/laba.png" style="width:40rpx;height:40rpx" />
+    <swiper vertical="true" autoplay circular class="scroll_swiper">
+      <block wx:for="{{scrollList}}" wx:key="*this">
+      <swiper-item>
+        <view class="scroll-cont">
+          <image mode="aspectFit" src="{{item.img}}" style="width:30rpx;height:30rpx;border-radius:30rpx"></image>
+          <view class="txt">
+          {{item.nickName}}购买了{{item.name}}
+          </view>
+        </view>
+      </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</template>
